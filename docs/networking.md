@@ -30,7 +30,7 @@ ip -s -c a
 
 *Note: `ifconfig` is old news now use `ip addr show`*
 
-![ip_a](assets/ip_a.png)
+![ip_a](sassets/ip_a.png)
 
 ### IPv6 vs. IPv4
 
@@ -38,13 +38,14 @@ Using IPv4 we can support 2<sup>32</sup> (about 4 billion) addresses however we 
 
 So, if you have 20 devices on a network you are really only using 1 public ip address that they route through and they all get private IP addresses in the internal network.
 
-![private_ip_addresses](assets/private_ip_addresses.png)
+<img src="assets/private_ip_addresses.png" alt="private_ip_addresses" width="300"/>
+
 
 ## MAC Addresses (layer 2)
 
 Mac addresses are the hardware addresses and the first three pairs of two (`00:1c:42` from the image above) identify the manufacturer.
 
-![mac_addr_lookup](assets/mac_addr_lookup.png)
+<img src="assets/mac_addr_lookup.png" alt="mac_addr_lookup" width="300"/>
 
 *Note: Just google search for mac address lookup and you will find many websites that will tell you the manufacturers based on the mac you provide.*
 
@@ -54,7 +55,7 @@ TCP (Transmission Control Protocol) is **connection-oriented**. It uses the 3-wa
 
 ### 3-Way Handshake - `SYN > SYN ACK > ACK`
 
-![3_way_handshake](assets/3_way_handshake.png)
+<img src="assets/3_way_handshake.png" alt="3_way_handshake" width="200"/>
 
 We can also use wireshark to see the `SYN > SYN ACK > ACK`
 
@@ -66,7 +67,7 @@ UDP (User Datagram Protocol) is **connection-less** and typically used for strea
 
 If you are hacking anything...anytime...just shut-up and memorize these.
 
-![common_ports_and_protocols](assets/common_ports_and_protocols.png)
+<img src="assets/common_ports_and_protocols.png" alt="common_ports_and_protocols" width="300"/>
 
 ## OSI Model
 
