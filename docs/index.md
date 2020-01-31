@@ -1,15 +1,19 @@
+---
+layout: home
+---
+
 # Hacker Handbook
 
 This site contains notes and guides pertaining to hacking as well as scripts for educational purposes only.
 
-For quick guides reference my [cheatsheets repo](https://github.com/nancynobody/cheatsheets)
+**For quick guides reference my [cheatsheets repo](https://github.com/nancynobody/cheatsheets)**
 
-## Systems
+## Table of Contents
 
-I will try and say what system I am using if its relevant however in general I will be using Kali, Ubuntu or OSX.
+### [Networking Refresher](pages/networking.md)
 
-**Kali Linux**
+### [Reconnaissance](pages/recon.md)
 
-![kali_system](assets/kali_system.png)
+### [Scanning and Enumeration](pages/scanning_and_enum.md)
 
-Ubuntu
+### [Exploitation](pages/exploitation.md)
